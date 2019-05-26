@@ -74,7 +74,7 @@
 ## Class use
 
   ~~~~
-  required 'ValidatorGRIDMI.php';
+  require 'ValidatorGRIDMI.php';
   $errors = ValidatorGRIDMI()::onValidate(JSON_SCHEMA, JSON_DATA, BOOL:remove_hierarchy?, BOOL:strict_mode?);
   echo empty($errors) ? 'No errors found!' : implode(', ', $errors);
   ~~~~
