@@ -80,6 +80,7 @@
   ~~~~
 
 ## License
+
   Free use with modification rights.
 
   `Without` the right to change the name of the class!
